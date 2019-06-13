@@ -1,5 +1,5 @@
 # Shell Permissions 
-## Description of each Task
+## Tasks based off of various shell permission concepts including: chmod, sudo, su, chown, chgrp, id, groups, whoami, adduser, useradd, addgroup
 ### 0. My name is Betty
 > Create a script that changes your user ID to betty.
 ### 1. Who am I
