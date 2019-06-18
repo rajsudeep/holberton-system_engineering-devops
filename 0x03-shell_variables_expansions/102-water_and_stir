@@ -1,6 +1,4 @@
 #!/bin/bash
-W=$(echo $WATER | tr water 01234);
-S=$(echo $STIR | tr stir. 01234);
-WB5=$((5#$W));
-SB5=$((5#$S));
-echo $(($WB5+$SB5)) | tr 01234567 behlnort
+W=$((5#$(echo $WATER | tr water 01234)));
+S=$((5#$(echo $STIR | tr stir. 01234)));
+echo $(($W+$S)) | tr 01234567 behlnort
