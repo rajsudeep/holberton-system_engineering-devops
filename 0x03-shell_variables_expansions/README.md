@@ -5,7 +5,7 @@ Set of problems based off: [Expansions](http://linuxcommand.org/lc3_lts0080.php)
 
 Commands: (printenv, set, unset, export, alias, unalias, ., source, printf) 
 ***
-0. /<o/>
+0. Create alias
 > Create a script that creates an alias.
 > * Name: ls
 > * Value: rm *
@@ -62,4 +62,16 @@ Commands: (printenv, set, unset, export, alias, unalias, ., source, printf)
 > [Link to the post](https://t.co/65YsnMJtgX)
 
 16. Blog post about Symbolic Links v. Hard Links
-> [Link to the post]()
+> [Link to the post](https://t.co/Su9uIqMN5G)
+
+100. Everyone is a proponent of strong encryption
+> Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+101. The eggs of the brood need to be an odd number
+> Write a script that prints every other line from the input, starting with the first line.
+
+102. I'm an instant star. Just add water and stir.
+> Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+> * WATER is in base water
+> * STIR is in base stir
+> * The result should be in base behlnort 
