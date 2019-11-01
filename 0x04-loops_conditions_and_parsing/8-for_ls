@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#displays Holberton School 10 times
+for file in *; do
+    if [ -f "$file" ]; then
+	echo "${file##*-}"
+    fi
+done
