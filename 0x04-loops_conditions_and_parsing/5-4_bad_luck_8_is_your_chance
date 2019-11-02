@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays Holberton School 10 times
+#displays Holberton School and occurrences of luck
 
 i=1
 while [ $i -ne 11 ]; do

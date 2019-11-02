@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays Holberton School 10 times
+#displays info about a file
 
 if [ -e holbertonschool ]; then
     echo "holbertonschool file exists"

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays Holberton School 10 times
+#displays hours and minutes
 
 i=0
 while [ $i -lt 13 ]; do

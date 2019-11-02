@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays Holberton School 10 times
+#displays FizzBuzz printing
 
 i=1
 while [ $i -lt 101 ]; do
