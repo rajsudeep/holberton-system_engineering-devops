@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 #displays Holberton School 10 times
 
-holbertonschool="holbertonschool"
-if [ -e $holbertonschool ]; then
+if [ -e holbertonschool ]; then
     echo "holbertonschool file exists"
-    if [ -s $holbertonschool ]; then
+    if [ -s holbertonschool ]; then
 	echo "holbertonschool file is not empty"
     else
 	echo "holbertonschool file is empty"
     fi
-    if [ -f $holbertonschool ]; then
+    if [ -f holbertonschool ]; then
 	echo "holbertonschool file is a regular file"
     fi
 else
