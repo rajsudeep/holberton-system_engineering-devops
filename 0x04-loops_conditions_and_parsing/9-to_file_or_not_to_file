@@ -6,12 +6,14 @@ if [ -e $file ]; then
     echo "holbertonschool file exists"
     if [ -s $file ]; then
 	echo "holbertonschool file is not empty"
+	if [ -f "$holbertonfile" ]; then
+	    echo "holbertonschool file is a regular file"
+	fi
     else
 	echo "holbertonschool file is empty"
-    fi
-    if [ -f "$holbertonfile" ];
-	then
-	echo "holbertonschool file is a regular file"
+	if [ -f "$holbertonfile" ]; then
+	    echo "holbertonschool file is a regular file"
+	fi
     fi
 else
     echo "holbertonschool file does not exist"
