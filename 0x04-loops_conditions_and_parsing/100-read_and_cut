@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#displays information from /etc/passwd
+
+while read l; do
+    echo "$l" | cut -d":" -f1,3,6
+done < /etc/passwd
