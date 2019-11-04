@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays "To infinity and beyond" indefinitely
+#displays "To infinity and beyond" indefinitely and is unkillable!
 
 while true; do
     echo "To infinity and beyond"
