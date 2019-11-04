@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#display list of processes containing the word bash
+
+ps -faux | grep bash
