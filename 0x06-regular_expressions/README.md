@@ -19,3 +19,6 @@
 ### [100. Textme](./100-textme.rb)
 > * Your script should output: [SENDER],[RECEIVER],[FLAGS]
 > [Log file](./http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/78/text_messages.log)
+### [101. Pass LinkedIn technical interview level0]
+> Solve LinkedIn regex puzzle: 
+> * https://engineering.linkedin.com/puzzle
