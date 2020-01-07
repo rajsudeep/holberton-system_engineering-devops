@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#indentifies user who runs this script
+
+sudo -u "$1" whoami
