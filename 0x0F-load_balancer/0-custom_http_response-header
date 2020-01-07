@@ -3,11 +3,8 @@
 
 sudo apt-get update
 sudo apt-get -y install nginx
-echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
 sudo ufw allow 'Nginx HTTP'
-sudo sed -i 's/#error_page 404/error_page 404/' /etc/nginx/sites-enabled/default
 sudo chown -R root:ubuntu /var/www/html/
-sudo touch /usr/share/nginx/html/404.html
 sudo chmod -R 2775 /var/www/html/
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
 sudo chown -R root:ubuntu /usr/share/nginx/html/
