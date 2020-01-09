@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#configures nginx
+#configures nginx in less than 7 lines
 
 pkill apache2
 sudo chmod 644 /etc/nginx/nginx.conf
