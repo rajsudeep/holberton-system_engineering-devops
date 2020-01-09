@@ -4,13 +4,9 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
-sudo chown -R root:ubuntu /var/www/html/
-sudo chmod -R 2775 /var/www/html/
 sudo echo 'Holberton School' > /var/www/html/index.html
-sudo chown -R root:ubuntu /usr/share/nginx/html/
-sudo chmod -R 2775 /usr/share/nginx/html/
 sudo echo "Ceci n'est pas une page" > /var/www/html/404.html
 sudo sed -i "/listen 80 default_server/a add_header X-Served-By '$HOSTNAME';" /etc/nginx/sites-available/default
 sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 sudo sed -i '/listen 80 default_server/a error_page 404 /404.html; location = /404.html {root /var/www/html/404.html;\n internal;}' /etc/nginx/sites-available/default
-sudo service nginx start
+sudo service nginx restart
