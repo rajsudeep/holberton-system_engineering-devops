@@ -11,7 +11,6 @@ Concept Guidance:
 > * use urllib or requests module
 > * must accept an integer as a parameter, which is the employee ID
 > * must display on the standard output the employee TODO list progress
-> * Example:
-![Task 0 Example](https://i.imgur.com/qiWGAIE.png)
+> ![Task 0 Example](https://i.imgur.com/qiWGAIE.png)
 
 ### [1. Export to CSV](./1-export_to_CSV.py)
