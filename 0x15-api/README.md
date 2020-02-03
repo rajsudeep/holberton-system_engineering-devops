@@ -12,6 +12,6 @@ Concept Guidance:
 > * must accept an integer as a parameter, which is the employee ID
 > * must display on the standard output the employee TODO list progress
 > Example:
-> [Imgur](https://imgur.com/qiWGAIE)
+![Task 0 Example](https://imgur.com/qiWGAIE)
 
 ### [1. Export to CSV](./1-export_to_CSV.py)
