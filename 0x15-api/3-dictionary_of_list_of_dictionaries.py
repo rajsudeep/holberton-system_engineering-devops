@@ -15,7 +15,7 @@ def get_all(url):
         tasks = []
         for task in todos:
             task_info = {
-                'username': user['name'],
+                'username': user['username'],
                 'completed': task['completed'],
                 'task': task['title'],
             }
