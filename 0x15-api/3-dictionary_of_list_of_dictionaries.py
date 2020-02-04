@@ -18,7 +18,7 @@ def get_all(url):
                 task_info = {
                     'task': task['title'],
                     'completed': task['completed'],
-                    'username': user['name'],
+                    'username': user['username'],
                 }
                 tasks.append(task_info)
         dict_tasks[user['id']] = tasks
