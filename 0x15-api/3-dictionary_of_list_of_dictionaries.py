@@ -6,7 +6,7 @@ import json
 
 
 def get_all(url):
-    """ Print completed tasks of corresponding employee """
+    """ Print completed tasks of all employees """
     users = get(url + 'users/').json()
     todos = get(url + 'todos/').json()
 
@@ -16,9 +16,9 @@ def get_all(url):
         for task in todos:
             if user['id'] == task['userId']:
                 task_info = {
-                    'username': user['name'],
-                    'completed': task['completed'],
                     'task': task['title'],
+                    'completed': task['completed'],
+                    'username': user['name'],
                 }
                 tasks.append(task_info)
         dict_tasks[user['id']] = tasks
