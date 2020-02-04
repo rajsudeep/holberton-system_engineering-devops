@@ -8,7 +8,7 @@ import csv
 def get_employee_info_csv(url, user_id):
     """ Print completed tasks of corresponding employee """
     user = get(url + 'users/' + user_id).json()
-    user_name = user['name']
+    user_name = user.get('username')
     todos = get(url + 'todos?userId={}'.format(user_id)).json()
 
     try:
